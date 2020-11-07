@@ -1,13 +1,13 @@
 //
-//  PingCodeUITests.swift
-//  PingCodeUITests
+//  PROJECTUITests.swift
+//  PROJECTUITests
 //
-//  Created by darui on 2020/11/6.
+//  Created by darui on 2020/11/7.
 //
 
 import XCTest
 
-class PingCodeUITests: XCTestCase {
+class PROJECTUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

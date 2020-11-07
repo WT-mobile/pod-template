@@ -1,8 +1,8 @@
 //
-//  PingCodeApp.swift
-//  PingCode
+//  PROJECTApp.swift
+//  PROJECT
 //
-//  Created by PROJECT_OWNER on 2020/11/6.
+//  Created by PROJECT_OWNER on TODAYS_DATE.
 //
 
 import SwiftUI

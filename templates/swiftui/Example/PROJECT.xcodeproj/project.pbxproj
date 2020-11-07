@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD25AF4A255550A30006A5CC /* PingCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AF49255550A30006A5CC /* PingCodeApp.swift */; };
-		CD25AF4C255550A30006A5CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AF4B255550A30006A5CC /* ContentView.swift */; };
-		CD25AF4E255550A50006A5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25AF4D255550A50006A5CC /* Assets.xcassets */; };
-		CD25AF51255550A50006A5CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25AF50255550A50006A5CC /* Preview Assets.xcassets */; };
-		CD25AF5C255550A60006A5CC /* PingCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AF5B255550A60006A5CC /* PingCodeTests.swift */; };
-		CD25AF67255550A60006A5CC /* PingCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AF66255550A60006A5CC /* PingCodeUITests.swift */; };
+		CD25AF94255644D10006A5CC /* PROJECTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AF93255644D10006A5CC /* PROJECTApp.swift */; };
+		CD25AF96255644D10006A5CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AF95255644D10006A5CC /* ContentView.swift */; };
+		CD25AF98255644D40006A5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25AF97255644D40006A5CC /* Assets.xcassets */; };
+		CD25AF9B255644D40006A5CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25AF9A255644D40006A5CC /* Preview Assets.xcassets */; };
+		CD25AFA6255644D40006A5CC /* PROJECTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AFA5255644D40006A5CC /* PROJECTTests.swift */; };
+		CD25AFB1255644D40006A5CC /* PROJECTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AFB0255644D40006A5CC /* PROJECTUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CD25AF58255550A60006A5CC /* PBXContainerItemProxy */ = {
+		CD25AFA2255644D40006A5CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CD25AF3E255550A20006A5CC /* Project object */;
+			containerPortal = CD25AF88255644D10006A5CC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD25AF45255550A30006A5CC;
-			remoteInfo = PingCode;
+			remoteGlobalIDString = CD25AF8F255644D10006A5CC;
+			remoteInfo = PROJECT;
 		};
-		CD25AF63255550A60006A5CC /* PBXContainerItemProxy */ = {
+		CD25AFAD255644D40006A5CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CD25AF3E255550A20006A5CC /* Project object */;
+			containerPortal = CD25AF88255644D10006A5CC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD25AF45255550A30006A5CC;
-			remoteInfo = PingCode;
+			remoteGlobalIDString = CD25AF8F255644D10006A5CC;
+			remoteInfo = PROJECT;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CD25AF46255550A30006A5CC /* PingCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD25AF49255550A30006A5CC /* PingCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingCodeApp.swift; sourceTree = "<group>"; };
-		CD25AF4B255550A30006A5CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CD25AF4D255550A50006A5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD25AF50255550A50006A5CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CD25AF52255550A50006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD25AF57255550A60006A5CC /* PingCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD25AF5B255550A60006A5CC /* PingCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingCodeTests.swift; sourceTree = "<group>"; };
-		CD25AF5D255550A60006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD25AF62255550A60006A5CC /* PingCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD25AF66255550A60006A5CC /* PingCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingCodeUITests.swift; sourceTree = "<group>"; };
-		CD25AF68255550A60006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD25AF90255644D10006A5CC /* PROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PROJECT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25AF93255644D10006A5CC /* PROJECTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROJECTApp.swift; sourceTree = "<group>"; };
+		CD25AF95255644D10006A5CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD25AF97255644D40006A5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD25AF9A255644D40006A5CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD25AF9C255644D40006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD25AFA1255644D40006A5CC /* PROJECTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25AFA5255644D40006A5CC /* PROJECTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROJECTTests.swift; sourceTree = "<group>"; };
+		CD25AFA7255644D40006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD25AFAC255644D40006A5CC /* PROJECTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25AFB0255644D40006A5CC /* PROJECTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROJECTUITests.swift; sourceTree = "<group>"; };
+		CD25AFB2255644D40006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD25AF43255550A30006A5CC /* Frameworks */ = {
+		CD25AF8D255644D10006A5CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD25AF54255550A60006A5CC /* Frameworks */ = {
+		CD25AF9E255644D40006A5CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD25AF5F255550A60006A5CC /* Frameworks */ = {
+		CD25AFA9255644D40006A5CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,143 +72,151 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD25AF3D255550A20006A5CC = {
+		CD25AF87255644D10006A5CC = {
 			isa = PBXGroup;
 			children = (
-				CD25AF48255550A30006A5CC /* PingCode */,
-				CD25AF5A255550A60006A5CC /* PingCodeTests */,
-				CD25AF65255550A60006A5CC /* PingCodeUITests */,
-				CD25AF47255550A30006A5CC /* Products */,
+				CD25AFCB25564DC00006A5CC /* Podspec Metadata */,
+				CD25AF92255644D10006A5CC /* PROJECT */,
+				CD25AFA4255644D40006A5CC /* PROJECTTests */,
+				CD25AFAF255644D40006A5CC /* PROJECTUITests */,
+				CD25AF91255644D10006A5CC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CD25AF47255550A30006A5CC /* Products */ = {
+		CD25AF91255644D10006A5CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD25AF46255550A30006A5CC /* PingCode.app */,
-				CD25AF57255550A60006A5CC /* PingCodeTests.xctest */,
-				CD25AF62255550A60006A5CC /* PingCodeUITests.xctest */,
+				CD25AF90255644D10006A5CC /* PROJECT.app */,
+				CD25AFA1255644D40006A5CC /* PROJECTTests.xctest */,
+				CD25AFAC255644D40006A5CC /* PROJECTUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD25AF48255550A30006A5CC /* PingCode */ = {
+		CD25AF92255644D10006A5CC /* PROJECT */ = {
 			isa = PBXGroup;
 			children = (
-				CD25AF49255550A30006A5CC /* PingCodeApp.swift */,
-				CD25AF4B255550A30006A5CC /* ContentView.swift */,
-				CD25AF4D255550A50006A5CC /* Assets.xcassets */,
-				CD25AF52255550A50006A5CC /* Info.plist */,
-				CD25AF4F255550A50006A5CC /* Preview Content */,
+				CD25AF93255644D10006A5CC /* PROJECTApp.swift */,
+				CD25AF95255644D10006A5CC /* ContentView.swift */,
+				CD25AF97255644D40006A5CC /* Assets.xcassets */,
+				CD25AF9C255644D40006A5CC /* Info.plist */,
+				CD25AF99255644D40006A5CC /* Preview Content */,
 			);
-			path = PingCode;
+			path = PROJECT;
 			sourceTree = "<group>";
 		};
-		CD25AF4F255550A50006A5CC /* Preview Content */ = {
+		CD25AF99255644D40006A5CC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CD25AF50255550A50006A5CC /* Preview Assets.xcassets */,
+				CD25AF9A255644D40006A5CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CD25AF5A255550A60006A5CC /* PingCodeTests */ = {
+		CD25AFA4255644D40006A5CC /* PROJECTTests */ = {
 			isa = PBXGroup;
 			children = (
-				CD25AF5B255550A60006A5CC /* PingCodeTests.swift */,
-				CD25AF5D255550A60006A5CC /* Info.plist */,
+				CD25AFA5255644D40006A5CC /* PROJECTTests.swift */,
+				CD25AFA7255644D40006A5CC /* Info.plist */,
 			);
-			path = PingCodeTests;
+			path = PROJECTTests;
 			sourceTree = "<group>";
 		};
-		CD25AF65255550A60006A5CC /* PingCodeUITests */ = {
+		CD25AFAF255644D40006A5CC /* PROJECTUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CD25AF66255550A60006A5CC /* PingCodeUITests.swift */,
-				CD25AF68255550A60006A5CC /* Info.plist */,
+				CD25AFB0255644D40006A5CC /* PROJECTUITests.swift */,
+				CD25AFB2255644D40006A5CC /* Info.plist */,
 			);
-			path = PingCodeUITests;
+			path = PROJECTUITests;
+			sourceTree = "<group>";
+		};
+		CD25AFCB25564DC00006A5CC /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD25AF45255550A30006A5CC /* PingCode */ = {
+		CD25AF8F255644D10006A5CC /* PROJECT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD25AF6B255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCode" */;
+			buildConfigurationList = CD25AFB5255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT" */;
 			buildPhases = (
-				CD25AF42255550A30006A5CC /* Sources */,
-				CD25AF43255550A30006A5CC /* Frameworks */,
-				CD25AF44255550A30006A5CC /* Resources */,
+				CD25AF8C255644D10006A5CC /* Sources */,
+				CD25AF8D255644D10006A5CC /* Frameworks */,
+				CD25AF8E255644D10006A5CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PingCode;
-			productName = PingCode;
-			productReference = CD25AF46255550A30006A5CC /* PingCode.app */;
+			name = PROJECT;
+			productName = PROJECT;
+			productReference = CD25AF90255644D10006A5CC /* PROJECT.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CD25AF56255550A60006A5CC /* PingCodeTests */ = {
+		CD25AFA0255644D40006A5CC /* PROJECTTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD25AF6E255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCodeTests" */;
+			buildConfigurationList = CD25AFB8255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECTTests" */;
 			buildPhases = (
-				CD25AF53255550A60006A5CC /* Sources */,
-				CD25AF54255550A60006A5CC /* Frameworks */,
-				CD25AF55255550A60006A5CC /* Resources */,
+				CD25AF9D255644D40006A5CC /* Sources */,
+				CD25AF9E255644D40006A5CC /* Frameworks */,
+				CD25AF9F255644D40006A5CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD25AF59255550A60006A5CC /* PBXTargetDependency */,
+				CD25AFA3255644D40006A5CC /* PBXTargetDependency */,
 			);
-			name = PingCodeTests;
-			productName = PingCodeTests;
-			productReference = CD25AF57255550A60006A5CC /* PingCodeTests.xctest */;
+			name = PROJECTTests;
+			productName = PROJECTTests;
+			productReference = CD25AFA1255644D40006A5CC /* PROJECTTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CD25AF61255550A60006A5CC /* PingCodeUITests */ = {
+		CD25AFAB255644D40006A5CC /* PROJECTUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD25AF71255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCodeUITests" */;
+			buildConfigurationList = CD25AFBB255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECTUITests" */;
 			buildPhases = (
-				CD25AF5E255550A60006A5CC /* Sources */,
-				CD25AF5F255550A60006A5CC /* Frameworks */,
-				CD25AF60255550A60006A5CC /* Resources */,
+				CD25AFA8255644D40006A5CC /* Sources */,
+				CD25AFA9255644D40006A5CC /* Frameworks */,
+				CD25AFAA255644D40006A5CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD25AF64255550A60006A5CC /* PBXTargetDependency */,
+				CD25AFAE255644D40006A5CC /* PBXTargetDependency */,
 			);
-			name = PingCodeUITests;
-			productName = PingCodeUITests;
-			productReference = CD25AF62255550A60006A5CC /* PingCodeUITests.xctest */;
+			name = PROJECTUITests;
+			productName = PROJECTUITests;
+			productReference = CD25AFAC255644D40006A5CC /* PROJECTUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CD25AF3E255550A20006A5CC /* Project object */ = {
+		CD25AF88255644D10006A5CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					CD25AF45255550A30006A5CC = {
+					CD25AF8F255644D10006A5CC = {
 						CreatedOnToolsVersion = 12.0;
 					};
-					CD25AF56255550A60006A5CC = {
+					CD25AFA0255644D40006A5CC = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = CD25AF45255550A30006A5CC;
+						TestTargetID = CD25AF8F255644D10006A5CC;
 					};
-					CD25AF61255550A60006A5CC = {
+					CD25AFAB255644D40006A5CC = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = CD25AF45255550A30006A5CC;
+						TestTargetID = CD25AF8F255644D10006A5CC;
 					};
 				};
 			};
-			buildConfigurationList = CD25AF41255550A20006A5CC /* Build configuration list for PBXProject "PingCode" */;
+			buildConfigurationList = CD25AF8B255644D10006A5CC /* Build configuration list for PBXProject "PROJECT" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +224,36 @@
 				en,
 				Base,
 			);
-			mainGroup = CD25AF3D255550A20006A5CC;
-			productRefGroup = CD25AF47255550A30006A5CC /* Products */;
+			mainGroup = CD25AF87255644D10006A5CC;
+			productRefGroup = CD25AF91255644D10006A5CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD25AF45255550A30006A5CC /* PingCode */,
-				CD25AF56255550A60006A5CC /* PingCodeTests */,
-				CD25AF61255550A60006A5CC /* PingCodeUITests */,
+				CD25AF8F255644D10006A5CC /* PROJECT */,
+				CD25AFA0255644D40006A5CC /* PROJECTTests */,
+				CD25AFAB255644D40006A5CC /* PROJECTUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CD25AF44255550A30006A5CC /* Resources */ = {
+		CD25AF8E255644D10006A5CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD25AF51255550A50006A5CC /* Preview Assets.xcassets in Resources */,
-				CD25AF4E255550A50006A5CC /* Assets.xcassets in Resources */,
+				CD25AF9B255644D40006A5CC /* Preview Assets.xcassets in Resources */,
+				CD25AF98255644D40006A5CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD25AF55255550A60006A5CC /* Resources */ = {
+		CD25AF9F255644D40006A5CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD25AF60255550A60006A5CC /* Resources */ = {
+		CD25AFAA255644D40006A5CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,48 +263,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CD25AF42255550A30006A5CC /* Sources */ = {
+		CD25AF8C255644D10006A5CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD25AF4C255550A30006A5CC /* ContentView.swift in Sources */,
-				CD25AF4A255550A30006A5CC /* PingCodeApp.swift in Sources */,
+				CD25AF96255644D10006A5CC /* ContentView.swift in Sources */,
+				CD25AF94255644D10006A5CC /* PROJECTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD25AF53255550A60006A5CC /* Sources */ = {
+		CD25AF9D255644D40006A5CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD25AF5C255550A60006A5CC /* PingCodeTests.swift in Sources */,
+				CD25AFA6255644D40006A5CC /* PROJECTTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD25AF5E255550A60006A5CC /* Sources */ = {
+		CD25AFA8255644D40006A5CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD25AF67255550A60006A5CC /* PingCodeUITests.swift in Sources */,
+				CD25AFB1255644D40006A5CC /* PROJECTUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CD25AF59255550A60006A5CC /* PBXTargetDependency */ = {
+		CD25AFA3255644D40006A5CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD25AF45255550A30006A5CC /* PingCode */;
-			targetProxy = CD25AF58255550A60006A5CC /* PBXContainerItemProxy */;
+			target = CD25AF8F255644D10006A5CC /* PROJECT */;
+			targetProxy = CD25AFA2255644D40006A5CC /* PBXContainerItemProxy */;
 		};
-		CD25AF64255550A60006A5CC /* PBXTargetDependency */ = {
+		CD25AFAE255644D40006A5CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD25AF45255550A30006A5CC /* PingCode */;
-			targetProxy = CD25AF63255550A60006A5CC /* PBXContainerItemProxy */;
+			target = CD25AF8F255644D10006A5CC /* PROJECT */;
+			targetProxy = CD25AFAD255644D40006A5CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		CD25AF69255550A60006A5CC /* Debug */ = {
+		CD25AFB3255644D40006A5CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +365,7 @@
 			};
 			name = Debug;
 		};
-		CD25AF6A255550A60006A5CC /* Release */ = {
+		CD25AFB4255644D40006A5CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,174 +420,174 @@
 			};
 			name = Release;
 		};
-		CD25AF6C255550A60006A5CC /* Debug */ = {
+		CD25AFB6255644D40006A5CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PingCode/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PROJECT/Preview Content\"";
 				DEVELOPMENT_TEAM = GE35PAF7XQ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = PingCode/Info.plist;
+				INFOPLIST_FILE = PROJECT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PROJECT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CD25AF6D255550A60006A5CC /* Release */ = {
+		CD25AFB7255644D40006A5CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PingCode/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PROJECT/Preview Content\"";
 				DEVELOPMENT_TEAM = GE35PAF7XQ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = PingCode/Info.plist;
+				INFOPLIST_FILE = PROJECT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PROJECT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		CD25AF6F255550A60006A5CC /* Debug */ = {
+		CD25AFB9255644D40006A5CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GE35PAF7XQ;
-				INFOPLIST_FILE = PingCodeTests/Info.plist;
+				INFOPLIST_FILE = PROJECTTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCodeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PROJECTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingCode.app/PingCode";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PROJECT.app/PROJECT";
 			};
 			name = Debug;
 		};
-		CD25AF70255550A60006A5CC /* Release */ = {
+		CD25AFBA255644D40006A5CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GE35PAF7XQ;
-				INFOPLIST_FILE = PingCodeTests/Info.plist;
+				INFOPLIST_FILE = PROJECTTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCodeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PROJECTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingCode.app/PingCode";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PROJECT.app/PROJECT";
 			};
 			name = Release;
 		};
-		CD25AF72255550A60006A5CC /* Debug */ = {
+		CD25AFBC255644D40006A5CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GE35PAF7XQ;
-				INFOPLIST_FILE = PingCodeUITests/Info.plist;
+				INFOPLIST_FILE = PROJECTUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCodeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PROJECTUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PingCode;
+				TEST_TARGET_NAME = PROJECT;
 			};
 			name = Debug;
 		};
-		CD25AF73255550A60006A5CC /* Release */ = {
+		CD25AFBD255644D40006A5CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GE35PAF7XQ;
-				INFOPLIST_FILE = PingCodeUITests/Info.plist;
+				INFOPLIST_FILE = PROJECTUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCodeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PROJECTUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PingCode;
+				TEST_TARGET_NAME = PROJECT;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD25AF41255550A20006A5CC /* Build configuration list for PBXProject "PingCode" */ = {
+		CD25AF8B255644D10006A5CC /* Build configuration list for PBXProject "PROJECT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD25AF69255550A60006A5CC /* Debug */,
-				CD25AF6A255550A60006A5CC /* Release */,
+				CD25AFB3255644D40006A5CC /* Debug */,
+				CD25AFB4255644D40006A5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD25AF6B255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCode" */ = {
+		CD25AFB5255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD25AF6C255550A60006A5CC /* Debug */,
-				CD25AF6D255550A60006A5CC /* Release */,
+				CD25AFB6255644D40006A5CC /* Debug */,
+				CD25AFB7255644D40006A5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD25AF6E255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCodeTests" */ = {
+		CD25AFB8255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECTTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD25AF6F255550A60006A5CC /* Debug */,
-				CD25AF70255550A60006A5CC /* Release */,
+				CD25AFB9255644D40006A5CC /* Debug */,
+				CD25AFBA255644D40006A5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD25AF71255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCodeUITests" */ = {
+		CD25AFBB255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECTUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD25AF72255550A60006A5CC /* Debug */,
-				CD25AF73255550A60006A5CC /* Release */,
+				CD25AFBC255644D40006A5CC /* Debug */,
+				CD25AFBD255644D40006A5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CD25AF3E255550A20006A5CC /* Project object */;
+	rootObject = CD25AF88255644D10006A5CC /* Project object */;
 }

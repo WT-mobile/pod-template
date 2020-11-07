@@ -19,10 +19,10 @@ module Pod
         when :quick
           configurator.add_pod_to_podfile "Quick', '~> 1.2.0"
           configurator.add_pod_to_podfile "Nimble', '~> 7.0"
-          configurator.set_test_framework "quick", "swift", "swift"
+          configurator.set_test_framework "quick", "swift", "swiftui"
 
         when :none
-          configurator.set_test_framework "xctest", "swift", "swift"
+          configurator.set_test_framework "xctest", "swift", "swiftui"
       end
 
       snapshots = configurator.ask_with_answers("Would you like to do view based testing", ["Yes", "No"]).to_sym
