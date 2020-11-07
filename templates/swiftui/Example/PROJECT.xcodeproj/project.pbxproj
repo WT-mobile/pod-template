@@ -75,7 +75,7 @@
 		CD25AF87255644D10006A5CC = {
 			isa = PBXGroup;
 			children = (
-				CD25AFCB25564DC00006A5CC /* Podspec Metadata */,
+				CD25AFEB25566D250006A5CC /* Podspec Metadata */,
 				CD25AF92255644D10006A5CC /* PROJECT */,
 				CD25AFA4255644D40006A5CC /* Tests */,
 				CD25AFAF255644D40006A5CC /* UITests */,
@@ -131,11 +131,11 @@
 			path = UITests;
 			sourceTree = "<group>";
 		};
-		CD25AFCB25564DC00006A5CC /* Podspec Metadata */ = {
+		CD25AFEB25566D250006A5CC /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Podspec Metadata";
+			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
