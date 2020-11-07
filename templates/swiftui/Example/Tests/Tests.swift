@@ -2,7 +2,7 @@
 //  PROJECTTests.swift
 //  PROJECTTests
 //
-//  Created by darui on 2020/11/7.
+//  Created by PRODUCT_OWNER on TODAYS_DATE.
 //
 
 import XCTest

@@ -12,18 +12,10 @@
 		CD25AF98255644D40006A5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25AF97255644D40006A5CC /* Assets.xcassets */; };
 		CD25AF9B255644D40006A5CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25AF9A255644D40006A5CC /* Preview Assets.xcassets */; };
 		CD25AFA6255644D40006A5CC /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AFA5255644D40006A5CC /* Tests.swift */; };
-		CD25AFB1255644D40006A5CC /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AFB0255644D40006A5CC /* UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CD25AFA2255644D40006A5CC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD25AF88255644D10006A5CC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD25AF8F255644D10006A5CC;
-			remoteInfo = PROJECT;
-		};
-		CD25AFAD255644D40006A5CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CD25AF88255644D10006A5CC /* Project object */;
 			proxyType = 1;
@@ -42,9 +34,6 @@
 		CD25AFA1255644D40006A5CC /* PROJECT_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECT_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD25AFA5255644D40006A5CC /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		CD25AFA7255644D40006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD25AFAC255644D40006A5CC /* PROJECT_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECT_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD25AFB0255644D40006A5CC /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
-		CD25AFB2255644D40006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +51,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD25AFA9255644D40006A5CC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +60,6 @@
 				CD25AFEB25566D250006A5CC /* Podspec Metadata */,
 				CD25AF92255644D10006A5CC /* PROJECT */,
 				CD25AFA4255644D40006A5CC /* Tests */,
-				CD25AFAF255644D40006A5CC /* UITests */,
 				CD25AF91255644D10006A5CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +69,6 @@
 			children = (
 				CD25AF90255644D10006A5CC /* PROJECT_Example.app */,
 				CD25AFA1255644D40006A5CC /* PROJECT_Tests.xctest */,
-				CD25AFAC255644D40006A5CC /* PROJECT_UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,15 +100,6 @@
 				CD25AFA7255644D40006A5CC /* Info.plist */,
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		CD25AFAF255644D40006A5CC /* UITests */ = {
-			isa = PBXGroup;
-			children = (
-				CD25AFB0255644D40006A5CC /* UITests.swift */,
-				CD25AFB2255644D40006A5CC /* Info.plist */,
-			);
-			path = UITests;
 			sourceTree = "<group>";
 		};
 		CD25AFEB25566D250006A5CC /* Podspec Metadata */ = {
@@ -176,24 +147,6 @@
 			productReference = CD25AFA1255644D40006A5CC /* PROJECT_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CD25AFAB255644D40006A5CC /* PROJECT_UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD25AFBB255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT_UITests" */;
-			buildPhases = (
-				CD25AFA8255644D40006A5CC /* Sources */,
-				CD25AFA9255644D40006A5CC /* Frameworks */,
-				CD25AFAA255644D40006A5CC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CD25AFAE255644D40006A5CC /* PBXTargetDependency */,
-			);
-			name = PROJECT_UITests;
-			productName = PROJECTUITests;
-			productReference = CD25AFAC255644D40006A5CC /* PROJECT_UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,10 +160,6 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					CD25AFA0255644D40006A5CC = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = CD25AF8F255644D10006A5CC;
-					};
-					CD25AFAB255644D40006A5CC = {
 						CreatedOnToolsVersion = 12.0;
 						TestTargetID = CD25AF8F255644D10006A5CC;
 					};
@@ -231,7 +180,6 @@
 			targets = (
 				CD25AF8F255644D10006A5CC /* PROJECT_Example */,
 				CD25AFA0255644D40006A5CC /* PROJECT_Tests */,
-				CD25AFAB255644D40006A5CC /* PROJECT_UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,13 +195,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CD25AF9F255644D40006A5CC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD25AFAA255644D40006A5CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,14 +221,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD25AFA8255644D40006A5CC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD25AFB1255644D40006A5CC /* UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,11 +228,6 @@
 			isa = PBXTargetDependency;
 			target = CD25AF8F255644D10006A5CC /* PROJECT_Example */;
 			targetProxy = CD25AFA2255644D40006A5CC /* PBXContainerItemProxy */;
-		};
-		CD25AFAE255644D40006A5CC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD25AF8F255644D10006A5CC /* PROJECT_Example */;
-			targetProxy = CD25AFAD255644D40006A5CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -508,46 +436,6 @@
 			};
 			name = Release;
 		};
-		CD25AFBC255644D40006A5CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GE35PAF7XQ;
-				INFOPLIST_FILE = PROJECTUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PROJECTUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PROJECT;
-			};
-			name = Debug;
-		};
-		CD25AFBD255644D40006A5CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GE35PAF7XQ;
-				INFOPLIST_FILE = PROJECTUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PROJECTUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PROJECT;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -574,15 +462,6 @@
 			buildConfigurations = (
 				CD25AFB9255644D40006A5CC /* Debug */,
 				CD25AFBA255644D40006A5CC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD25AFBB255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT_UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD25AFBC255644D40006A5CC /* Debug */,
-				CD25AFBD255644D40006A5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
