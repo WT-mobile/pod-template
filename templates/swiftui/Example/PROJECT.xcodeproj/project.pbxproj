@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD25AF4A255550A30006A5CC /* PingCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AF49255550A30006A5CC /* PingCodeApp.swift */; };
+		CD25AF4C255550A30006A5CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AF4B255550A30006A5CC /* ContentView.swift */; };
+		CD25AF4E255550A50006A5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25AF4D255550A50006A5CC /* Assets.xcassets */; };
+		CD25AF51255550A50006A5CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25AF50255550A50006A5CC /* Preview Assets.xcassets */; };
+		CD25AF5C255550A60006A5CC /* PingCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AF5B255550A60006A5CC /* PingCodeTests.swift */; };
+		CD25AF67255550A60006A5CC /* PingCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AF66255550A60006A5CC /* PingCodeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD25AF58255550A60006A5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD25AF3E255550A20006A5CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD25AF45255550A30006A5CC;
+			remoteInfo = PingCode;
+		};
+		CD25AF63255550A60006A5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD25AF3E255550A20006A5CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD25AF45255550A30006A5CC;
+			remoteInfo = PingCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD25AF46255550A30006A5CC /* PingCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25AF49255550A30006A5CC /* PingCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingCodeApp.swift; sourceTree = "<group>"; };
+		CD25AF4B255550A30006A5CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD25AF4D255550A50006A5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD25AF50255550A50006A5CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD25AF52255550A50006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD25AF57255550A60006A5CC /* PingCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25AF5B255550A60006A5CC /* PingCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingCodeTests.swift; sourceTree = "<group>"; };
+		CD25AF5D255550A60006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD25AF62255550A60006A5CC /* PingCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25AF66255550A60006A5CC /* PingCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingCodeUITests.swift; sourceTree = "<group>"; };
+		CD25AF68255550A60006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD25AF43255550A30006A5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25AF54255550A60006A5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25AF5F255550A60006A5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD25AF3D255550A20006A5CC = {
+			isa = PBXGroup;
+			children = (
+				CD25AF48255550A30006A5CC /* PingCode */,
+				CD25AF5A255550A60006A5CC /* PingCodeTests */,
+				CD25AF65255550A60006A5CC /* PingCodeUITests */,
+				CD25AF47255550A30006A5CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD25AF47255550A30006A5CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD25AF46255550A30006A5CC /* PingCode.app */,
+				CD25AF57255550A60006A5CC /* PingCodeTests.xctest */,
+				CD25AF62255550A60006A5CC /* PingCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD25AF48255550A30006A5CC /* PingCode */ = {
+			isa = PBXGroup;
+			children = (
+				CD25AF49255550A30006A5CC /* PingCodeApp.swift */,
+				CD25AF4B255550A30006A5CC /* ContentView.swift */,
+				CD25AF4D255550A50006A5CC /* Assets.xcassets */,
+				CD25AF52255550A50006A5CC /* Info.plist */,
+				CD25AF4F255550A50006A5CC /* Preview Content */,
+			);
+			path = PingCode;
+			sourceTree = "<group>";
+		};
+		CD25AF4F255550A50006A5CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD25AF50255550A50006A5CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD25AF5A255550A60006A5CC /* PingCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD25AF5B255550A60006A5CC /* PingCodeTests.swift */,
+				CD25AF5D255550A60006A5CC /* Info.plist */,
+			);
+			path = PingCodeTests;
+			sourceTree = "<group>";
+		};
+		CD25AF65255550A60006A5CC /* PingCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD25AF66255550A60006A5CC /* PingCodeUITests.swift */,
+				CD25AF68255550A60006A5CC /* Info.plist */,
+			);
+			path = PingCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD25AF45255550A30006A5CC /* PingCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD25AF6B255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCode" */;
+			buildPhases = (
+				CD25AF42255550A30006A5CC /* Sources */,
+				CD25AF43255550A30006A5CC /* Frameworks */,
+				CD25AF44255550A30006A5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingCode;
+			productName = PingCode;
+			productReference = CD25AF46255550A30006A5CC /* PingCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD25AF56255550A60006A5CC /* PingCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD25AF6E255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCodeTests" */;
+			buildPhases = (
+				CD25AF53255550A60006A5CC /* Sources */,
+				CD25AF54255550A60006A5CC /* Frameworks */,
+				CD25AF55255550A60006A5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD25AF59255550A60006A5CC /* PBXTargetDependency */,
+			);
+			name = PingCodeTests;
+			productName = PingCodeTests;
+			productReference = CD25AF57255550A60006A5CC /* PingCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD25AF61255550A60006A5CC /* PingCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD25AF71255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCodeUITests" */;
+			buildPhases = (
+				CD25AF5E255550A60006A5CC /* Sources */,
+				CD25AF5F255550A60006A5CC /* Frameworks */,
+				CD25AF60255550A60006A5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD25AF64255550A60006A5CC /* PBXTargetDependency */,
+			);
+			name = PingCodeUITests;
+			productName = PingCodeUITests;
+			productReference = CD25AF62255550A60006A5CC /* PingCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD25AF3E255550A20006A5CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CD25AF45255550A30006A5CC = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					CD25AF56255550A60006A5CC = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = CD25AF45255550A30006A5CC;
+					};
+					CD25AF61255550A60006A5CC = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = CD25AF45255550A30006A5CC;
+					};
+				};
+			};
+			buildConfigurationList = CD25AF41255550A20006A5CC /* Build configuration list for PBXProject "PingCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD25AF3D255550A20006A5CC;
+			productRefGroup = CD25AF47255550A30006A5CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD25AF45255550A30006A5CC /* PingCode */,
+				CD25AF56255550A60006A5CC /* PingCodeTests */,
+				CD25AF61255550A60006A5CC /* PingCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD25AF44255550A30006A5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25AF51255550A50006A5CC /* Preview Assets.xcassets in Resources */,
+				CD25AF4E255550A50006A5CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25AF55255550A60006A5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25AF60255550A60006A5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD25AF42255550A30006A5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25AF4C255550A30006A5CC /* ContentView.swift in Sources */,
+				CD25AF4A255550A30006A5CC /* PingCodeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25AF53255550A60006A5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25AF5C255550A60006A5CC /* PingCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25AF5E255550A60006A5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25AF67255550A60006A5CC /* PingCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD25AF59255550A60006A5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD25AF45255550A30006A5CC /* PingCode */;
+			targetProxy = CD25AF58255550A60006A5CC /* PBXContainerItemProxy */;
+		};
+		CD25AF64255550A60006A5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD25AF45255550A30006A5CC /* PingCode */;
+			targetProxy = CD25AF63255550A60006A5CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD25AF69255550A60006A5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD25AF6A255550A60006A5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD25AF6C255550A60006A5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PingCode/Preview Content\"";
+				DEVELOPMENT_TEAM = GE35PAF7XQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PingCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD25AF6D255550A60006A5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PingCode/Preview Content\"";
+				DEVELOPMENT_TEAM = GE35PAF7XQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PingCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD25AF6F255550A60006A5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GE35PAF7XQ;
+				INFOPLIST_FILE = PingCodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingCode.app/PingCode";
+			};
+			name = Debug;
+		};
+		CD25AF70255550A60006A5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GE35PAF7XQ;
+				INFOPLIST_FILE = PingCodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PingCode.app/PingCode";
+			};
+			name = Release;
+		};
+		CD25AF72255550A60006A5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GE35PAF7XQ;
+				INFOPLIST_FILE = PingCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PingCode;
+			};
+			name = Debug;
+		};
+		CD25AF73255550A60006A5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GE35PAF7XQ;
+				INFOPLIST_FILE = PingCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PingCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PingCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD25AF41255550A20006A5CC /* Build configuration list for PBXProject "PingCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25AF69255550A60006A5CC /* Debug */,
+				CD25AF6A255550A60006A5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD25AF6B255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25AF6C255550A60006A5CC /* Debug */,
+				CD25AF6D255550A60006A5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD25AF6E255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25AF6F255550A60006A5CC /* Debug */,
+				CD25AF70255550A60006A5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD25AF71255550A60006A5CC /* Build configuration list for PBXNativeTarget "PingCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25AF72255550A60006A5CC /* Debug */,
+				CD25AF73255550A60006A5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD25AF3E255550A20006A5CC /* Project object */;
+}
