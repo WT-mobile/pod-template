@@ -11,7 +11,7 @@ module Pod
 
     def initialize(options)
       @xcodeproj_path = options.fetch(:xcodeproj_path)
-      @configurator = options.fetch(:configuratorxcodeproj_path)
+      @configurator = options.fetch(:configurator)
       @platform = options.fetch(:platform)
       @remove_demo_target = options.fetch(:remove_demo_project)
       @prefix = options.fetch(:prefix)
