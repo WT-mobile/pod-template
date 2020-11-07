@@ -11,8 +11,8 @@
 		CD25AF96255644D10006A5CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AF95255644D10006A5CC /* ContentView.swift */; };
 		CD25AF98255644D40006A5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25AF97255644D40006A5CC /* Assets.xcassets */; };
 		CD25AF9B255644D40006A5CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25AF9A255644D40006A5CC /* Preview Assets.xcassets */; };
-		CD25AFA6255644D40006A5CC /* PROJECTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AFA5255644D40006A5CC /* PROJECTTests.swift */; };
-		CD25AFB1255644D40006A5CC /* PROJECTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AFB0255644D40006A5CC /* PROJECTUITests.swift */; };
+		CD25AFA6255644D40006A5CC /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AFA5255644D40006A5CC /* Tests.swift */; };
+		CD25AFB1255644D40006A5CC /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AFB0255644D40006A5CC /* UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +40,10 @@
 		CD25AF9A255644D40006A5CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD25AF9C255644D40006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD25AFA1255644D40006A5CC /* PROJECTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD25AFA5255644D40006A5CC /* PROJECTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROJECTTests.swift; sourceTree = "<group>"; };
+		CD25AFA5255644D40006A5CC /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		CD25AFA7255644D40006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD25AFAC255644D40006A5CC /* PROJECTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD25AFB0255644D40006A5CC /* PROJECTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROJECTUITests.swift; sourceTree = "<group>"; };
+		CD25AFB0255644D40006A5CC /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		CD25AFB2255644D40006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,8 +77,8 @@
 			children = (
 				CD25AFCB25564DC00006A5CC /* Podspec Metadata */,
 				CD25AF92255644D10006A5CC /* PROJECT */,
-				CD25AFA4255644D40006A5CC /* PROJECTTests */,
-				CD25AFAF255644D40006A5CC /* PROJECTUITests */,
+				CD25AFA4255644D40006A5CC /* Tests */,
+				CD25AFAF255644D40006A5CC /* UITests */,
 				CD25AF91255644D10006A5CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,22 +113,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CD25AFA4255644D40006A5CC /* PROJECTTests */ = {
+		CD25AFA4255644D40006A5CC /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				CD25AFA5255644D40006A5CC /* PROJECTTests.swift */,
+				CD25AFA5255644D40006A5CC /* Tests.swift */,
 				CD25AFA7255644D40006A5CC /* Info.plist */,
 			);
-			path = PROJECTTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		CD25AFAF255644D40006A5CC /* PROJECTUITests */ = {
+		CD25AFAF255644D40006A5CC /* UITests */ = {
 			isa = PBXGroup;
 			children = (
-				CD25AFB0255644D40006A5CC /* PROJECTUITests.swift */,
+				CD25AFB0255644D40006A5CC /* UITests.swift */,
 				CD25AFB2255644D40006A5CC /* Info.plist */,
 			);
-			path = PROJECTUITests;
+			path = UITests;
 			sourceTree = "<group>";
 		};
 		CD25AFCB25564DC00006A5CC /* Podspec Metadata */ = {
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD25AFA6255644D40006A5CC /* PROJECTTests.swift in Sources */,
+				CD25AFA6255644D40006A5CC /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD25AFB1255644D40006A5CC /* PROJECTUITests.swift in Sources */,
+				CD25AFB1255644D40006A5CC /* UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
