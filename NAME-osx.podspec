@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = ''
+  s.homepage         = 'https://github.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { }
-  s.source           = { :tag => s.version.to_s }
+  s.author           = { 'pingcode' => 'pingcode@worktile.com' }
+  s.source           = { :git => 'https://github.com.git', :tag => s.version.to_s }
 
   s.platform = :osx
   s.osx.deployment_target = "10.10"
