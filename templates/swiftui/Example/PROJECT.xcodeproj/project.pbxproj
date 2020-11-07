@@ -33,16 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CD25AF90255644D10006A5CC /* PROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PROJECT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25AF90255644D10006A5CC /* PROJECT_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PROJECT_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD25AF93255644D10006A5CC /* PROJECTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROJECTApp.swift; sourceTree = "<group>"; };
 		CD25AF95255644D10006A5CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD25AF97255644D40006A5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD25AF9A255644D40006A5CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD25AF9C255644D40006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD25AFA1255644D40006A5CC /* PROJECTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25AFA1255644D40006A5CC /* PROJECT_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECT_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD25AFA5255644D40006A5CC /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		CD25AFA7255644D40006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD25AFAC255644D40006A5CC /* PROJECTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25AFAC255644D40006A5CC /* PROJECT_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECT_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD25AFB0255644D40006A5CC /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		CD25AFB2255644D40006A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,9 +86,9 @@
 		CD25AF91255644D10006A5CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD25AF90255644D10006A5CC /* PROJECT.app */,
-				CD25AFA1255644D40006A5CC /* PROJECTTests.xctest */,
-				CD25AFAC255644D40006A5CC /* PROJECTUITests.xctest */,
+				CD25AF90255644D10006A5CC /* PROJECT_Example.app */,
+				CD25AFA1255644D40006A5CC /* PROJECT_Tests.xctest */,
+				CD25AFAC255644D40006A5CC /* PROJECT_UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD25AF8F255644D10006A5CC /* PROJECT */ = {
+		CD25AF8F255644D10006A5CC /* PROJECT_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD25AFB5255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT" */;
+			buildConfigurationList = CD25AFB5255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT_Example" */;
 			buildPhases = (
 				CD25AF8C255644D10006A5CC /* Sources */,
 				CD25AF8D255644D10006A5CC /* Frameworks */,
@@ -153,14 +153,14 @@
 			);
 			dependencies = (
 			);
-			name = PROJECT;
+			name = PROJECT_Example;
 			productName = PROJECT;
-			productReference = CD25AF90255644D10006A5CC /* PROJECT.app */;
+			productReference = CD25AF90255644D10006A5CC /* PROJECT_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CD25AFA0255644D40006A5CC /* PROJECTTests */ = {
+		CD25AFA0255644D40006A5CC /* PROJECT_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD25AFB8255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECTTests" */;
+			buildConfigurationList = CD25AFB8255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT_Tests" */;
 			buildPhases = (
 				CD25AF9D255644D40006A5CC /* Sources */,
 				CD25AF9E255644D40006A5CC /* Frameworks */,
@@ -171,14 +171,14 @@
 			dependencies = (
 				CD25AFA3255644D40006A5CC /* PBXTargetDependency */,
 			);
-			name = PROJECTTests;
+			name = PROJECT_Tests;
 			productName = PROJECTTests;
-			productReference = CD25AFA1255644D40006A5CC /* PROJECTTests.xctest */;
+			productReference = CD25AFA1255644D40006A5CC /* PROJECT_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CD25AFAB255644D40006A5CC /* PROJECTUITests */ = {
+		CD25AFAB255644D40006A5CC /* PROJECT_UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD25AFBB255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECTUITests" */;
+			buildConfigurationList = CD25AFBB255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT_UITests" */;
 			buildPhases = (
 				CD25AFA8255644D40006A5CC /* Sources */,
 				CD25AFA9255644D40006A5CC /* Frameworks */,
@@ -189,9 +189,9 @@
 			dependencies = (
 				CD25AFAE255644D40006A5CC /* PBXTargetDependency */,
 			);
-			name = PROJECTUITests;
+			name = PROJECT_UITests;
 			productName = PROJECTUITests;
-			productReference = CD25AFAC255644D40006A5CC /* PROJECTUITests.xctest */;
+			productReference = CD25AFAC255644D40006A5CC /* PROJECT_UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD25AF8F255644D10006A5CC /* PROJECT */,
-				CD25AFA0255644D40006A5CC /* PROJECTTests */,
-				CD25AFAB255644D40006A5CC /* PROJECTUITests */,
+				CD25AF8F255644D10006A5CC /* PROJECT_Example */,
+				CD25AFA0255644D40006A5CC /* PROJECT_Tests */,
+				CD25AFAB255644D40006A5CC /* PROJECT_UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		CD25AFA3255644D40006A5CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD25AF8F255644D10006A5CC /* PROJECT */;
+			target = CD25AF8F255644D10006A5CC /* PROJECT_Example */;
 			targetProxy = CD25AFA2255644D40006A5CC /* PBXContainerItemProxy */;
 		};
 		CD25AFAE255644D40006A5CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD25AF8F255644D10006A5CC /* PROJECT */;
+			target = CD25AF8F255644D10006A5CC /* PROJECT_Example */;
 			targetProxy = CD25AFAD255644D40006A5CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,7 +435,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PROJECT;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pingcode.PROJECT-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +457,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingcode.PROJECT;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pingcode.PROJECT-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD25AFB5255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT" */ = {
+		CD25AFB5255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD25AFB6255644D40006A5CC /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD25AFB8255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECTTests" */ = {
+		CD25AFB8255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD25AFB9255644D40006A5CC /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD25AFBB255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECTUITests" */ = {
+		CD25AFBB255644D40006A5CC /* Build configuration list for PBXNativeTarget "PROJECT_UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD25AFBC255644D40006A5CC /* Debug */,
